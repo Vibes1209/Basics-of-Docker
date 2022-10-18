@@ -25,7 +25,7 @@ This repository contains info regarding basic docker commands and how to contain
 | docker login | Used to get access for pushing an image into the dockerhub | [View](/images/docker-login.png) |
 | docker push <image-name[:tag]> | Used to push an image into dockerhub | [View](/images/fastapi_docker_push.png) |
 | docker network ls | Lists the docker networks available. We can use networks to connect our containers | [View](/images/docker-network-ls.png) |
-| docker exec -it <container-id> bash | Gain access to a bash shell of a running container | [View](/images/docker-exec.png.png) |
+| docker exec -it <container-id> bash | Gain access to a bash shell of a running container | [View](/images/docker-exec.png) |
 
 
 ### Task 2 - Run Docker Container Locally
@@ -48,7 +48,7 @@ This repository contains info regarding basic docker commands and how to contain
 
 ![Running Docker Image](/images/fastapi_docker_run.png) <br><br>
 ![Pushing Docker Image](/images/fastapi_docker_push.png)<br><br>
-![Docker Hub Link](https://hub.docker.com/layers/vibes1209/my_fastapi_app/v1/images/sha256-4ce441a4998eae1ec2d45e0e9be9717e3529de4bebe5cc3fe133389ea3e6a503?context=repo)<br><br>
+[Docker Hub Link](https://hub.docker.com/layers/vibes1209/my_fastapi_app/v1/images/sha256-4ce441a4998eae1ec2d45e0e9be9717e3529de4bebe5cc3fe133389ea3e6a503?context=repo)<br><br>
 
 ### Task 4 - Automate Dockerization using Github Actions
 * Created a custom github workflow. It has two jobs running sequentially.
@@ -62,5 +62,5 @@ This repository contains info regarding basic docker commands and how to contain
     3. Add tag to the image
     4. Push the image to docker hub
 
-[!Github Action Workflow](https://github.com/Vibes1209/Basics-of-Docker/actions/runs/3272191860) <br>
-[!Docker Hub Link](https://hub.docker.com/layers/vibes1209/my_fastapi_app/main/images/sha256-47e3d94b684d7cd195ee742438d209b7aacc8c621ac5064c1b56555db018eefe?context=repo)
+[Github Action Workflow](https://github.com/Vibes1209/Basics-of-Docker/actions/runs/3272191860) <br>
+[Docker Hub Link](https://hub.docker.com/layers/vibes1209/my_fastapi_app/main/images/sha256-47e3d94b684d7cd195ee742438d209b7aacc8c621ac5064c1b56555db018eefe?context=repo)
